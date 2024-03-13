@@ -1,7 +1,10 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
 }
 
 header, nav, main, footer {
@@ -28,13 +31,24 @@ a:hover {
     color: #555;
 }
 
-/* Specific Styles */
+
 header {
-    background-color: #f0f0f0;
+    background-color: #ffb6c1; /* Light Pink */
+    color: #fff;
+    text-align: center;
 }
 
 nav {
-    background-color: #ddd;
+    background-color: #87ceeb; /* Sky Blue */
+    border-bottom: 2px solid #ddd;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #f0f8ff; /* Light Sky Blue */
 }
 
 main {
@@ -42,7 +56,8 @@ main {
 }
 
 footer {
-    background-color: #f0f0f0;
+    background-color: #ffb6c1; /* Light Pink */
+    color: #fff;
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -52,6 +67,8 @@ footer {
 table {
     width: 100%;
     border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
 }
 
 th, td {
@@ -61,7 +78,8 @@ th, td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #87ceeb; /* Sky Blue */
+    color: #fff;
 }
 
 form {
@@ -82,12 +100,12 @@ input[type="submit"] {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ffb6c1; /* Light Pink */
+    color: #fff;
     border: none;
     cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #ff69b4; /* Hot Pink */
 }
